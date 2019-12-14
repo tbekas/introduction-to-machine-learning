@@ -6,7 +6,7 @@
 	```
 1. Start a Jupyter server
     ```
-    docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/work introduction-into-machine-learning:latest
+    docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work introduction-into-machine-learning:latest
     ```
 1. Open Jupyter by following the last link from the logs
     ```
